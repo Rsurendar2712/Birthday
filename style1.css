@@ -22,11 +22,15 @@ body {
 }
 
 .login-box {
-    background: white;
+   
     padding: 40px;
     border-radius: 20px;
     box-shadow: 0 10px 25px rgba(0,0,0,0.1);
     text-align: center;
+
+}
+.login-box p{
+       color: white; 
 }
 
 h2 {
@@ -81,6 +85,6 @@ button:hover {
     font-size: 0.8rem;
 }
 
-.login-container {
-     background-image: url("img/BG.png");
+.login-box {
+    background-image: url("img/BG.png");
 }

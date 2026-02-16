@@ -8,7 +8,7 @@
 </head>
 <body>
     <div class="login-container">
-        <div class="cc">
+        <div class="login-box">
             <h2>✨ Birthday Access ✨</h2>
             <p>Please authenticate to view your surprise.</p>
             
@@ -19,7 +19,7 @@
                 <div class="input-group">
                     <input type="password" id="password" placeholder="Hint: Our favorite date?" required>
                 </div>
-                <button type="button" onclick="checkLogin()">Unlock Surprise</button>
+                <button type="button" onclick="checkLogin()">Unlock My Heart</button>
             </form>
             <p id="error-msg"></p>
         </div>
@@ -27,13 +27,13 @@
 
     <script>
         function checkLogin() {
-            const pass = document.getElementById('password').value;
-            const input = document.getElementById('username');
-          const name = input ? input.value.toLowerCase() : '';
-          
-           
+            const pass = document.getElementById('password').value; 
+            const input = document.getElementById('username'); 
+            const name = input ? input.value.toLowerCase() : '';
+
+
             // You can set the password to whatever you want here!
-            if (name =='akilarumugam' && pass === "03031998") { 
+            if (name =='akilarumugam' && pass === "03031998"){ 
                 document.querySelector('.login-box').innerHTML = `
                 <h2 style="color: #ec407a;">Happy Birthday! ❤️</h2>
         <p style="font-size: 1.1rem; line-height: 1.6;">
@@ -42,18 +42,14 @@
         </p>
         <span style="font-size: 3rem;">🎂✨🌸</span>
         <button type="button" onclick="world()">Unlock Surprise</button>
-        `
-;
-        
+        `;
                 // window.location.href = "wish.html"; // Redirect to your wish page
             } else {
                 document.getElementById('error-msg').innerText = "Incorrect hint! Try again, birthday girl/boy. 😉";
             }
         }
 
-        function world(){
-            window.location.href = 'Gallary/gallery.html';
-        }
+        function world(){ window.location.href = 'Gallary/gallery.html'; }
     </script>
 </body>
 </html>
