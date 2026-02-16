@@ -18,7 +18,7 @@ window.addEventListener('load', () => {
     });
 });
 function wa(){
-    window.location.href = "Whatapp.html";
+    window.location.href = "whatapp.html";
 }
 // animation timeline
 const animationTimeline = () => {
