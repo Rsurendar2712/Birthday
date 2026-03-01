@@ -10,6 +10,9 @@ body {
 .song {
   visibility: hidden;
 }
+.last-smile{
+font-size: large;
+}
 
 .container {
   height: 100vh;
@@ -146,7 +149,7 @@ body {
   top: 0;
   visibility: hidden;
   width: 25px;
-  z-index: -1;
+  z-index: 
 }
 
 .eight svg:nth-child(1) {
@@ -225,23 +228,8 @@ body {
   z-index: 3;
 }
 
-/* #btn {
-    background-color: #ff4b91;
-    color: white;
-    padding: 12px 25px;
-    border: none;
-    border-radius: 30px;
-    font-size: 16px;
-    cursor: pointer;
-    transition: 0.3s ease;
-}
-
-#btn:hover {
-    background-color: #ff2e7a;
-    transform: scale(1.05);
-} */
-#btn.button {
-    width: 100%;
+.btn {
+   
     padding: 12px;
     border: none;
     border-radius: 25px;
@@ -249,14 +237,15 @@ body {
     color: white;
     font-weight: bold;
     cursor: pointer;
-    transition: 0.3s;
+  
 }
-
-#btn.button:hover {
+.btn:hover {
     background: #d81b60;
     transform: translateY(-2px);
 }
-/* Media Queries */
+
+
+
 @media screen and (max-height: 1000px) {
   .six .hat {
     left: 40%;
@@ -271,18 +260,15 @@ body {
 
 @media screen and (max-height: 700px) {
   .six .hat {
-    left: -10px;
-    top:-35%;
-    right:-20px;
-    bottom: 20%;
-    rotate: 45;
+        left: 41%;
+    
  
   }
 }
 
 @media screen and (max-height: 850px) and (max-width: 450px) {
   .six .hat {
-    left: 42%;
+    left: 40%;
   }
 }
 

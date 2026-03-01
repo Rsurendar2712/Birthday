@@ -19,7 +19,7 @@ window.addEventListener('load', () => {
 });
 
     const checkLogin = () => {
-window.location.href = 'Gallery.html';
+window.location.href = 'gallery.html';
         
     }
 
